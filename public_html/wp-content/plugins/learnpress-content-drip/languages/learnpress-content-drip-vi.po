@@ -1,0 +1,130 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: LearnPress Content Drip\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-03-18 16:12+0700\n"
+"PO-Revision-Date: Fri Mar 18 2016 16:15:15 GMT+0700 (SE Asia Standard Time)\n"
+"Last-Translator: Nguyễn Ngọc Tú <tunnhn@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: Vietnamese\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: vi_VN\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: learnpress-content-drip.php:137 learnpress-content-drip.php:145
+#: includes/class-lpr-content-drip.php:36
+#: includes/class-lpr-content-drip.php:43
+msgid "Drip Schedule"
+msgstr ""
+
+#: learnpress-content-drip.php:178 includes/class-lpr-content-drip.php:74
+#, php-format
+msgid "Available on </br> %s"
+msgstr ""
+
+#: learnpress-content-drip.php:180 learnpress-content-drip.php:227
+#: includes/class-lpr-content-drip.php:76
+#: includes/class-lpr-content-drip.php:265
+msgid "Immediately"
+msgstr "Ngay lap tuc"
+
+#: learnpress-content-drip.php:217 includes/class-lpr-content-drip.php:256
+msgid "Content drip"
+msgstr ""
+
+#: learnpress-content-drip.php:221 includes/class-lpr-content-drip.php:260
+msgid "When should this lesson become available?"
+msgstr ""
+
+#: learnpress-content-drip.php:225
+msgid ""
+"The date/time this lesson become available for user view from the date they "
+"enrolled course"
+msgstr ""
+
+#: learnpress-content-drip.php:228 learnpress-content-drip.php:233
+#: includes/class-lpr-content-drip.php:266
+#: includes/class-lpr-content-drip.php:271
+msgid "Interval"
+msgstr ""
+
+#: learnpress-content-drip.php:229 includes/class-lpr-content-drip.php:267
+msgid "Specific date"
+msgstr ""
+
+#: learnpress-content-drip.php:243 includes/class-lpr-content-drip.php:281
+msgid "Interval Type"
+msgstr ""
+
+#: learnpress-content-drip.php:248 includes/class-lpr-content-drip.php:286
+msgid "Day(s)"
+msgstr ""
+
+#: learnpress-content-drip.php:249 includes/class-lpr-content-drip.php:287
+msgid "Week(s)"
+msgstr ""
+
+#: learnpress-content-drip.php:250 includes/class-lpr-content-drip.php:288
+msgid "Month(s)"
+msgstr ""
+
+#: learnpress-content-drip.php:256 includes/class-lpr-content-drip.php:294
+msgid "Specific Date"
+msgstr ""
+
+#: learnpress-content-drip.php:259 includes/class-lpr-content-drip.php:297
+msgid "Date in format d/m/y"
+msgstr ""
+
+#: learnpress-content-drip.php:279
+msgid "Enable Content Drip"
+msgstr "Bat noi dung nho giot"
+
+#: learnpress-content-drip.php:282 includes/class-lpr-content-drip.php:108
+msgid "Enable/Disable content drip for this course"
+msgstr ""
+
+#: learnpress-content-drip.php:285
+msgid "No"
+msgstr ""
+
+#: learnpress-content-drip.php:286
+msgid "Yes"
+msgstr ""
+
+#: includes/class-lpr-content-drip.php:105
+msgid "Content Drip"
+msgstr ""
+
+#: includes/class-lpr-content-drip.php:111
+msgid "Disable"
+msgstr ""
+
+#: includes/class-lpr-content-drip.php:112
+msgid "Enable"
+msgstr ""
+
+#: includes/class-lpr-content-drip.php:224
+#, php-format
+msgid "This lesson will become available on %s"
+msgstr ""
+
+#: includes/class-lpr-content-drip.php:241
+msgid "Date error! Please enter valid date"
+msgstr ""
+
+#: templates/restrict-content.php:10
+#, php-format
+msgid "Sorry! You can not view this lesson right now. It will become available on %s"
+msgstr ""

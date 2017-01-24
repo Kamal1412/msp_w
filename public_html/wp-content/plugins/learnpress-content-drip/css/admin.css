@@ -1,0 +1,7 @@
+.wp-list-table .column-drip_schedule {
+	width: 200px;
+}
+
+#emails_content_drip_item_available_ajax_schedule:not(.hide-if-js) {
+	display: inline-block;
+}

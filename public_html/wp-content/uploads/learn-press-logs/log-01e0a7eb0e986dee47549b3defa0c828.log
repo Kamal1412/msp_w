@@ -1,0 +1,120 @@
+-----11-25-2016 @ 10:07:25 ------
+create_table
+-----11-25-2016 @ 10:07:25 ------
+create_table
+-----11-25-2016 @ 10:07:28 ------
+
+			SELECT user_item_id, item_id
+			FROM wp_learnpress_user_items
+			WHERE ref_id = 0
+		
+-----11-25-2016 @ 10:07:41 ------
+create_table
+-----11-25-2016 @ 10:07:41 ------
+create_table
+-----11-25-2016 @ 10:07:42 ------
+
+			SELECT user_item_id, item_id
+			FROM wp_learnpress_user_items
+			WHERE ref_id = 0
+		
+-----12-05-2016 @ 14:43:26 ------
+remove filter content
+-----12-05-2016 @ 15:16:35 ------
+remove filter content
+-----12-05-2016 @ 15:16:57 ------
+remove filter content
+-----12-05-2016 @ 15:18:05 ------
+remove filter content
+-----12-05-2016 @ 15:18:20 ------
+remove filter content
+-----12-05-2016 @ 15:18:29 ------
+remove filter content
+-----12-12-2016 @ 13:24:09 ------
+remove filter content
+-----12-12-2016 @ 13:24:25 ------
+remove filter content
+-----12-12-2016 @ 14:29:02 ------
+remove filter content
+-----12-12-2016 @ 14:29:47 ------
+remove filter content
+-----12-13-2016 @ 06:57:33 ------
+remove filter content
+-----12-13-2016 @ 06:59:55 ------
+remove filter content
+-----12-13-2016 @ 07:12:59 ------
+remove filter content
+-----12-13-2016 @ 07:13:32 ------
+remove filter content
+-----12-13-2016 @ 07:14:03 ------
+remove filter content
+-----12-13-2016 @ 07:16:04 ------
+remove filter content
+-----12-13-2016 @ 07:19:24 ------
+remove filter content
+-----12-13-2016 @ 13:55:39 ------
+create_table
+-----12-21-2016 @ 05:56:29 ------
+remove filter content
+-----12-26-2016 @ 07:41:41 ------
+remove filter content
+-----12-26-2016 @ 07:41:44 ------
+remove filter content
+-----12-26-2016 @ 08:05:00 ------
+remove filter content
+-----12-26-2016 @ 08:05:03 ------
+remove filter content
+-----12-26-2016 @ 08:12:16 ------
+remove filter content
+-----12-26-2016 @ 08:12:19 ------
+remove filter content
+-----12-26-2016 @ 08:38:28 ------
+remove filter content
+-----12-26-2016 @ 08:38:30 ------
+remove filter content
+-----01-11-2017 @ 11:40:37 ------
+remove filter content
+-----01-11-2017 @ 11:40:41 ------
+remove filter content
+-----01-11-2017 @ 11:41:14 ------
+remove filter content
+-----01-11-2017 @ 11:41:15 ------
+remove filter content
+-----01-11-2017 @ 11:41:16 ------
+remove filter content
+-----01-11-2017 @ 11:41:26 ------
+remove filter content
+-----01-11-2017 @ 11:41:29 ------
+remove filter content
+-----01-11-2017 @ 11:41:30 ------
+remove filter content
+-----01-11-2017 @ 11:41:32 ------
+remove filter content
+-----01-11-2017 @ 11:41:37 ------
+remove filter content
+-----01-11-2017 @ 11:41:38 ------
+remove filter content
+-----01-11-2017 @ 11:41:40 ------
+remove filter content
+-----01-11-2017 @ 11:41:41 ------
+remove filter content
+-----01-11-2017 @ 11:41:42 ------
+remove filter content
+-----01-11-2017 @ 11:41:46 ------
+remove filter content
+-----01-11-2017 @ 11:41:48 ------
+remove filter content
+-----01-11-2017 @ 11:41:49 ------
+remove filter content
+-----01-11-2017 @ 11:41:50 ------
+remove filter content
+-----01-11-2017 @ 11:41:52 ------
+remove filter content
+-----01-11-2017 @ 11:41:53 ------
+remove filter content
+-----01-11-2017 @ 11:41:54 ------
+remove filter content
+-----01-12-2017 @ 10:09:04 ------
+remove filter content
+-----01-12-2017 @ 10:09:07 ------
+remove filter content

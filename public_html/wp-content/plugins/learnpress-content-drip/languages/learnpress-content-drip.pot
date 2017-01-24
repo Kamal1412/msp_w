@@ -1,0 +1,128 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#: includes/class-lpr-content-drip.php:274
+#: includes/class-lpr-content-drip.php:284
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-03-18 16:12+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: learnpress-content-drip.php:137 learnpress-content-drip.php:145
+#: includes/class-lpr-content-drip.php:36
+#: includes/class-lpr-content-drip.php:43
+msgid "Drip Schedule"
+msgstr ""
+
+#: learnpress-content-drip.php:178 includes/class-lpr-content-drip.php:74
+#, php-format
+msgid "Available on </br> %s"
+msgstr ""
+
+#: learnpress-content-drip.php:180 learnpress-content-drip.php:227
+#: includes/class-lpr-content-drip.php:76
+#: includes/class-lpr-content-drip.php:265
+msgid "Immediately"
+msgstr ""
+
+#: learnpress-content-drip.php:217 includes/class-lpr-content-drip.php:256
+msgid "Content drip"
+msgstr ""
+
+#: learnpress-content-drip.php:221 includes/class-lpr-content-drip.php:260
+msgid "When should this lesson become available?"
+msgstr ""
+
+#: learnpress-content-drip.php:225
+msgid ""
+"The date/time this lesson become available for user view from the date they "
+"enrolled course"
+msgstr ""
+
+#: learnpress-content-drip.php:228 learnpress-content-drip.php:233
+#: includes/class-lpr-content-drip.php:266
+#: includes/class-lpr-content-drip.php:271
+msgid "Interval"
+msgstr ""
+
+#: learnpress-content-drip.php:229 includes/class-lpr-content-drip.php:267
+msgid "Specific date"
+msgstr ""
+
+#: learnpress-content-drip.php:243 includes/class-lpr-content-drip.php:281
+msgid "Interval Type"
+msgstr ""
+
+#: learnpress-content-drip.php:248 includes/class-lpr-content-drip.php:286
+msgid "Day(s)"
+msgstr ""
+
+#: learnpress-content-drip.php:249 includes/class-lpr-content-drip.php:287
+msgid "Week(s)"
+msgstr ""
+
+#: learnpress-content-drip.php:250 includes/class-lpr-content-drip.php:288
+msgid "Month(s)"
+msgstr ""
+
+#: learnpress-content-drip.php:256 includes/class-lpr-content-drip.php:294
+msgid "Specific Date"
+msgstr ""
+
+#: learnpress-content-drip.php:259 includes/class-lpr-content-drip.php:297
+msgid "Date in format d/m/y"
+msgstr ""
+
+#: learnpress-content-drip.php:279
+msgid "Enable Content Drip"
+msgstr ""
+
+#: learnpress-content-drip.php:282 includes/class-lpr-content-drip.php:108
+msgid "Enable/Disable content drip for this course"
+msgstr ""
+
+#: learnpress-content-drip.php:285
+msgid "No"
+msgstr ""
+
+#: learnpress-content-drip.php:286
+msgid "Yes"
+msgstr ""
+
+#: includes/class-lpr-content-drip.php:105
+msgid "Content Drip"
+msgstr ""
+
+#: includes/class-lpr-content-drip.php:111
+msgid "Disable"
+msgstr ""
+
+#: includes/class-lpr-content-drip.php:112
+msgid "Enable"
+msgstr ""
+
+#: includes/class-lpr-content-drip.php:224
+#, php-format
+msgid "This lesson will become available on %s"
+msgstr ""
+
+#: includes/class-lpr-content-drip.php:241
+msgid "Date error! Please enter valid date"
+msgstr ""
+
+#: templates/restrict-content.php:10
+#, php-format
+msgid ""
+"Sorry! You can not view this lesson right now. It will become available on %s"
+msgstr ""
