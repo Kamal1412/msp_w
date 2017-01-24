@@ -405,9 +405,11 @@ class BP_Core_User {
 		 * @param string $value Concatenated SQL statement for the query.
 		 * @param array  $sql   Array of SQL statement parts for the query.
 		 */
+		
+	
 		$total_users_sql = apply_filters( 'bp_core_get_total_users_sql', join( ' ', (array) $sql ), $sql );
 		$total_users     = $wpdb->get_var( $total_users_sql );
-
+	
 		/**
 		 * Lets fetch some other useful data in a separate queries, this will be faster than querying the data for every user in a list.
 		 * We can't add these to the main query above since only users who have this information will be returned (since the much of the data is in usermeta and won't support any type of directional join).

@@ -19,7 +19,7 @@ do_action( 'bp_before_members_loop' ); ?>
 	<p class="current-member-type"><?php bp_current_member_type_message() ?></p>
 <?php endif; ?>
 
-<?php if ( bp_has_members( bp_ajax_querystring( 'members' ) ) ) : ?>
+<?php  if ( bp_has_members( bp_ajax_querystring( 'members' )  ) ) : ?>
 
 	<div id="pag-top" class="pagination">
 
@@ -52,7 +52,12 @@ do_action( 'bp_before_members_loop' ); ?>
 
 		<li <?php bp_member_class(); ?>>
 			<div class="item-avatar">
-				<a href="<?php bp_member_permalink(); ?>"><?php bp_member_avatar(); ?></a>
+		
+				<a href="<?php bp_member_permalink(); ?>"><?php bp_member_avatar(); ?>
+				</a>
+				<div class="clear"></div>
+				<!-- <br>
+			<a href="<?php bp_member_permalink(); ?>"><span class="cad">Click Here </span><br> <span style="color:#8d8d8d;font-weight:bold;">for more details </span></a> -->
 			</div>
 
 			<div class="item">
@@ -67,7 +72,13 @@ do_action( 'bp_before_members_loop' ); ?>
 
 				</div>
 
-				<div class="item-meta"><span class="activity" data-livestamp="<?php bp_core_iso8601_date( bp_get_member_last_active( array( 'relative' => false ) ) ); ?>"><?php bp_member_last_active(); ?></span></div>
+				
+				<div class="item item-title">
+				 
+				<p class="marg"><span class="cad">Preparing for:</span> <?php bp_member_profile_data('field=Course'); ?></p>
+				<!-- <p class="marg"><span class="cad">School:</span> N/A</p> -->
+				<p class="marg">Hi, i am looking for a good study partner..  <a href="<?php bp_member_permalink(); ?>">More..</a></p>
+				</div>
 
 				<?php
 
@@ -90,7 +101,11 @@ do_action( 'bp_before_members_loop' ); ?>
 			</div>
 
 			<div class="action">
-
+        
+			   <div class="locationd">
+				<p> <?php   bp_member_profile_data('field=City');  echo ", ";  bp_member_profile_data('field=Country');  ?> </p>
+				</div>
+				<div class="item-meta"><span>Last Visited:</span><span class="activity" data-livestamp="<?php bp_core_iso8601_date( bp_get_member_last_active( array( 'relative' => false ) ) ); ?>"><?php bp_member_last_active(); ?></span></div>
 				<?php
 
 				/**
@@ -99,9 +114,11 @@ do_action( 'bp_before_members_loop' ); ?>
 				 * @since 1.1.0
 				 */
 				do_action( 'bp_directory_members_actions' ); ?>
-
+				
+				
+       
 			</div>
-
+           
 			<div class="clear"></div>
 		</li>
 

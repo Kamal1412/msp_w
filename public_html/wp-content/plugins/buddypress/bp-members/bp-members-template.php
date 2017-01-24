@@ -398,7 +398,7 @@ function bp_has_members( $args = '' ) {
 	if ( !empty( $r['max'] ) && ( $r['per_page'] > $r['max'] ) ) {
 		$r['per_page'] = $r['max'];
 	}
-
+ 
 	// Query for members and populate $members_template global.
 	$members_template = new BP_Core_Members_Template(
 		$r['type'],

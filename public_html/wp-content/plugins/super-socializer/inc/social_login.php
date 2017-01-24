@@ -249,7 +249,7 @@ function the_champ_create_user($profileData, $verification = false){
 				if(isset($profileData[$val])){
 					$value = $profileData[$val];
 				}
-				if($value){
+				//if($value){
 				$wpdb->insert( 
 					$wpdb -> prefix . 'bp_xprofile_data', 
 					array( 
@@ -267,7 +267,7 @@ function the_champ_create_user($profileData, $verification = false){
 						'%s', 
 					) 
 				);
-				}
+				//}
 			}
 		}
 		// hook - user successfully created
@@ -522,7 +522,7 @@ function the_champ_user_auth($profileData, $provider = 'facebook', $twitterRedir
 							$value = $profileData[$val];
 						}
 						
-						if($value){
+						//if($value){
 						$wpdb->update( 
 							$wpdb -> prefix . 'bp_xprofile_data', 
 							array( 
@@ -542,7 +542,7 @@ function the_champ_user_auth($profileData, $provider = 'facebook', $twitterRedir
 								'%d' 
 							)
 						);
-						}
+						//}
 					}
 				}
 				$error = the_champ_login_user($existingUser[0] -> ID, $profileData, $profileData['id'], true);

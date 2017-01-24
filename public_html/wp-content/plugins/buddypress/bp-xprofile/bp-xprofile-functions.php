@@ -459,7 +459,6 @@ function xprofile_set_field_data( $field, $user_id, $value, $is_required = false
 	$field->field_id = $field_id;
 	$field->user_id  = $user_id;
 	$field->value    = maybe_serialize( $value );
-
 	return $field->save();
 }
 

@@ -44,28 +44,28 @@ do_action( 'bp_before_directory_members_page' ); ?>
                 <ul class="nav">
 				<h4 class="sub">Study Hours</h4>
                   
-                    <li><a><input type="checkbox" id="filter_am">AM</li></a><li class="nav-divider"></li>
-                    <li><a><input type="checkbox" id="filter_pm">PM</li></a></li><li class="nav-divider"></li>
-                    <li><a><input type="checkbox" id="filter_no_pref">No Preference</li></a></li>
+                    <li><a><input type="checkbox" id="filter_am" name="filter_am">AM</li></a><li class="nav-divider"></li>
+                    <li><a><input type="checkbox" id="filter_pm" name="filter_pm">PM</li></a></li><li class="nav-divider"></li>
+                    <li><a><input type="checkbox" id="filter_no_pref" name="filter_no_pref">No Preference</li></a></li>
 					 <li class="nav-divider"></li>
               
                 </ul>
 				 <ul class="nav">
 				<h4 class="sub">Study Days</h4>
                    
-                    <li><a href="#">All Days </a></li><li class="nav-divider"></li>
-                    <li><a href="#">Weekend Only</a></li><li class="nav-divider"></li>
-                    <li><a href="#">Weekdays Only</a></li><li class="nav-divider"></li>
-					 <li><a href="#">No Preference</a></li>
+                    <li><a><input type="checkbox" id="filter_study_all_days" name="filter_study_all_days">All Days </a></li><li class="nav-divider"></li>
+                    <li><a><input type="checkbox" id="filter_study_weekend" name="filter_study_weekend">Weekend Only</a></li><li class="nav-divider"></li>
+                    <li><a><input type="checkbox" id="filter_study_weekdays" name="filter_study_weekdays">Weekdays Only</a></li><li class="nav-divider"></li>
+					 <li><a><input type="checkbox" id="filter_study_no_pref" name="filter_study_no_pref">No Preference</a></li>
                     <li class="nav-divider"></li>
                
                 </ul>
 				 <ul class="nav">
 				<h4 class="sub">Occupation</h4>
               
-                    <li><a href="#">Working Full-Time</a></li><li class="nav-divider"></li>
-                    <li><a href="#">Working Part-Time</a></li><li class="nav-divider"></li>
-                    <li><a href="#">No Preference</a></li>
+                    <li><a><input type="checkbox" id="filter_work_full_time" name="filter_work_full_time">Working Full-Time</a></li><li class="nav-divider"></li>
+                    <li><a><input type="checkbox" id="filter_work_part_time" name="filter_work_part_time">Working Part-Time</a></li><li class="nav-divider"></li>
+                    <li><a><input type="checkbox" id="filter_work_no_pref" name="filter_work_no_pref">No Preference</a></li>
                     <li class="nav-divider"></li>
            
                 </ul>
